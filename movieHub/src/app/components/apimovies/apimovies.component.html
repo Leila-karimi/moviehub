@@ -1,0 +1,18 @@
+
+  <table class="table table-bordered table-bordered-horizontal table-hover">
+            <tr>
+                <th c>Actor name </th>
+                <th >Characters </th>
+            </tr>
+            <tr *ngIf="movies && movies.length==0"><td colspan="3"> No records found!</td></tr>
+
+            <tr *ngFor="let data of movies">
+            
+                <td>{{data.ActorName}}</td>
+                <td>
+                  <ul>
+                    <li *ngFor="let d of data.Characters">{{d}}</li>
+                  </ul>
+                </td>
+            </tr>
+        </table>

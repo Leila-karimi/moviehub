@@ -1,0 +1,178 @@
+ /*You can add global styles to this file, and also import other style files */
+body{
+    margin: 0;
+     height:100%;
+}
+
+html { height:100%; }
+
+h1, .h1 {
+    font-family: 'Slate W01', arial, sans-serif;
+    font-size: 25px;
+    font-weight: normal;
+    margin: 10px 0;
+    color: #900000;
+  }
+h2, .h2 {
+    font-family: 'Slate W01', arial, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    margin: 10px 0;
+    color: #000;
+  }
+
+hr {
+    border: none;
+  	border-top: 1px solid #f0f0f0;
+}
+
+.mat-card-subtitle{
+    float: right;
+    margin-right: 30px;
+}
+.active{
+    border-bottom: solid 4px white; 
+}
+.app-card-basic {
+  padding-top: 0 !important;
+ }
+.app-card-basic mat-card-header
+{
+   margin-left:  0px !important;
+   height:70px;
+   margin-bottom: 10px;  
+}
+.app-card-basic mat-card-header mat-toolbar{
+   background: #fff !important;
+   padding-right: 10px;
+   margin-left:  -30px !important;
+   height: 50px;
+}
+
+.app-card-basic mat-card-content {
+  padding: 3px 2px 3px 2px;
+}
+
+.app-card-basic mat-card-header mat-toolbar .page-actions{
+    font-family: 'Slate W01', arial, sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    float: right;
+}
+
+.app-card-basic mat-card-actions{
+ padding: 3px 2px 3px 2px;
+}
+
+.app-card-basic .cancel-app-card-basic-header-style
+{
+    height: auto;
+    border: 0;
+    margin-bottom: 0px;
+}
+
+.cancel-app-card-basic-header-style mat-card-title{
+    margin-bottom: .5em;    
+}
+
+
+.input-full-width {
+  width: 100%;
+}
+
+.fill-empty-space{
+    flex: 1 1 auto;
+}
+.seperator{
+   
+    border-top: 1px solid #f0f0f0;
+    content: "";
+    margin: 0;
+    padding: 0;
+}
+#wrapper {
+	width: 100%;
+	overflow: hidden;
+}
+#header{
+	background: #ff5152;
+	border-bottom: 3px solid #efefef;
+	padding: 18px 0;
+}
+.logo{
+	width: 178px;
+	height: 23px;
+	margin: 1px 0 0 33px;
+	float: left;
+    
+}
+.logo a{
+	display: block;
+	height: 100%;
+    color: #fff;
+    font-weight: bold;
+}
+
+.banner{background: #0b5a8a;}
+.banner .container{
+	position: relative;
+	min-height: 150px;
+}
+.hero-block{
+    position: relative;
+	min-height: 350px;
+    padding: 100px;
+}
+.banner .text-holder{
+	position: absolute;
+	top: 50px;
+	width: 400px;
+	left: 50%;
+	margin-left: -201px;
+	color: #d8ecf5;
+	font-size: 28px;
+	line-height: 34px;
+	z-index: 9;
+	text-align: center;
+}
+.banner .logo{
+	height: auto;
+	margin: 0 auto 29px;
+	float: none;
+	width: 519px;
+	position: relative;
+}
+
+ .top-text{
+	text-align: center;
+	color: #505558;
+	font-size: 22px;
+	line-height: 33px;
+	padding: 126px 0 130px;
+}
+.top-text .container{max-width: 900px;}
+* {max-height: 100000px;}
+img {border-style: none;}
+
+body {
+	min-width: 320px;
+	-webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust: none;
+	height: 100%;
+	font-size: 1.4em;
+	line-height: 1.42857em;
+}
+img.aligncenter {
+	display: block;
+	margin: 0 auto;
+}
+a:hover, a:focus {text-decoration: none;}
+
+#footer h2{margin: 0 0 82px;}
+.footer-bottom{
+	background: #034065;
+	color: #D1DFE7;
+	font-size: 16px;
+	line-height: 20px;
+	padding: 38px;
+}
